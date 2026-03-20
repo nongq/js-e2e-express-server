@@ -10,7 +10,7 @@ strategy:
    matrix:
       linux:
          imageName: "ubuntu-latest"
-      linux:
+      windows:
          imageName: "windows-latest"         
 pool:
   vmImage: $(imageName)
