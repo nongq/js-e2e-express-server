@@ -11,8 +11,6 @@ strategy:
    matrix:
       linux:
          imageName: "ubuntu-latest"
-      windows:
-         imageName: "windows-latest"         
 pool:
   vmImage: $(imageName)
 
